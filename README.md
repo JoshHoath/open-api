@@ -23,4 +23,4 @@ I ran into issues with getting the average price of each community. My thinking 
 
 I put both of those Id's into an empty array but ran into a road block on how to compare each id to one another.
 
-I could hard code the id's in but that would be lazy
+Im gonna try to hard code the IDs in to see if that helps   

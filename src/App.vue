@@ -90,25 +90,25 @@ export default {
 
             },
             compare: function() {
-                for(home in homes){
-                    if(a = homes.id === this.auburnId) {
-                        this.auburnHomes.push(a);
-                    } else if (b = homes.id === this.bownessId){
-                        this.bownessHomes = b;
-                    } else if (c = this.homes.id === this.brentwoodId ){
-                        this.brentwoodHomes = c;
-                    } else if (d = this.homes.id === this.eauclaireId ) {
-                        this.eauclairdHomes = d;
-                    } else if (f = this.homes.id === this.mahoganyId ) {
-                        this.mahoganyHomes = f;
-                    } else if (g = this.homes.id === this.mountviewId ) {
-                        this.mountviewHomes = g;
-                    } else if (h =this,homes.id === this.northwestId) {
-                        this.northwestHomes = h
-                    } else if(i = this.homes.id === this.oakridgeId) {
-                        this.oakridge = i
-                    } else if(j = this.homes.id === this.varsityId) {
-                        this.varsityHomes = j
+                for(this.home in this.homes){
+                    if(homes.id === this.auburnId) {
+                        this.auburnHomes.push();
+                    } else if (this.homes.id === this.bownessId){
+                        this.bownessHomes.push();
+                    } else if (this.homes.id === this.brentwoodId ){
+                        this.brentwoodHomes.push();
+                    } else if (this.homes.id === this.eauclaireId ) {
+                        this.eauclairdHomes.push();
+                    } else if (this.homes.id === this.mahoganyId ) {
+                        this.mahoganyHomes.push();
+                    } else if (this.homes.id === this.mountviewId ) {
+                        this.mountviewHomes.push();
+                    } else if (this,homes.id === this.northwestId) {
+                        this.northwestHomes.push();
+                    } else if(this.homes.id === this.oakridgeId) {
+                        this.oakridgeHomes.push();
+                    } else if(this.homes.id === this.varsityId) {
+                        this.varsityHomes.push();
                     }
                 }
             }
